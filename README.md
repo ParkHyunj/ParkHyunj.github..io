@@ -1,5 +1,6 @@
 # 박현진 프론트앤드 포트폴리오 페이지 작성
 프론트앤드 첫 포트폴리오를 제작하기 위해 템플릿을 사용하였다. (https://github.com/RyanFitzgerald/devfolio)
+title 수정, about me 작성, Projects 작성, skills 작성
 
 # Dev Portfolio
 
