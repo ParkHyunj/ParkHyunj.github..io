@@ -3,6 +3,7 @@
 2> title 수정, about me 작성,  skills 작성
 3> Projects
   => ParkHyunj.github.io / first-react-project / first-project / react-hooks / learning-redux
+4> footer 수정
 
 # Dev Portfolio
 
