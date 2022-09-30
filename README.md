@@ -5,7 +5,8 @@
   => ParkHyunj.github.io / first-react-project / first-project / react-hooks / learning-redux     
   => image 각각의 demo 화면 capture 후, 변경         
 4> footer 수정            
-5> about me 작성               
+5> about me 작성     
+6> favicon 변경             
 
 # Dev Portfolio
 
