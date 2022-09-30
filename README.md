@@ -1,10 +1,11 @@
 # 박현진 프론트앤드 포트폴리오 페이지 작성
-1> 프론트앤드 첫 포트폴리오를 제작하기 위해 템플릿을 사용하였다. (https://github.com/RyanFitzgerald/devfolio)
-2> title 수정, skills 작성
-3> Projects
-  => ParkHyunj.github.io / first-react-project / first-project / react-hooks / learning-redux
-4> footer 수정
-5> about me 작성
+1> 프론트앤드 첫 포트폴리오를 제작하기 위해 템플릿을 사용하였다. (https://github.com/RyanFitzgerald/devfolio)          
+2> title 수정, skills 작성           
+3> Projects            
+  => ParkHyunj.github.io / first-react-project / first-project / react-hooks / learning-redux     
+  => image 각각의 demo 화면 capture 후, 변경         
+4> footer 수정            
+5> about me 작성               
 
 # Dev Portfolio
 
