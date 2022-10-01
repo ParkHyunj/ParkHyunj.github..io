@@ -444,8 +444,9 @@ header a:hover{
             color:#374054;
             margin-bottom:50px;
         }
-        .project{position:relative;
-            max-width:900px;
+        .project{
+            position:relative;
+            max-width:1500px;
             margin:0 auto 30px auto;
             overflow:hidden;
             background:#fff;
@@ -460,6 +461,7 @@ header a:hover{
             transform:translateY(-50%);
             margin-left:300px;
             padding:15px;
+            width:900px;
         }
         .project-info h3{
             font-size:30px;
