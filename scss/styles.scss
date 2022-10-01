@@ -319,7 +319,7 @@ footer {
     position: relative;
     display: inline-block;
     font-size: 2em;
-    font-weight: 300;
+    font-weight: bold;
     margin: 0 0 30px 0;
 
     &:after {
@@ -1001,4 +1001,11 @@ footer {
         }
     }
 
+}
+
+img{
+    vertical-align: center;
+    border: 0;
+    height: 220px;
+    width: 300px;
 }
