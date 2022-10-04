@@ -20,14 +20,33 @@
 .row{
     /* background-color:blue; */
     width:1400px;
-    overflow: auto;
+}
+#about p {
+    color: #000000;
+}
+.container {
+    margin-right: 250px!important;
+    margin-left: 250px!important;
+    /* padding-left: 0!important;
+    padding-right: 0!important; */
+}
+#project {
+    height:600px!important;
+    overflow: visible!important;
+}
+.project-image {
+    width:400px!important;
+    object-fit: contain!important;
+}
+.project-info p {
+    color: #000000;
 }
 .project {
     height:400px;
 }
 .project-info,  project-image{
     display: flex;
-    white-space: pre-line;
+    /* white-space: pre-line; */
     margin-left: 500px;
 }
 .project-info {
@@ -55,3 +74,14 @@
     flex: 3;
     display:flex;
 } */
+
+#skills>ul {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+#skills li {
+    color: #000000;
+}
