@@ -16,10 +16,10 @@
     margin-right: 250px!important;
     margin-left: 250px!important;
 }
-#project {
+/* #project {
     height:600px!important;
     overflow: visible!important;
-}
+} */
 .project-image {
     text-align: center;
     justify-content: center;
@@ -29,6 +29,12 @@
 }
 .project-info p {
     color: #000000;
+    word-spacing: 2em;
+}
+.project-info h4 {
+    font-size: 22px;
+    text-align:left!important;
+    line-height:1.2em;
 }
 .project {
     height:400px;
