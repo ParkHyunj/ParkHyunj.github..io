@@ -1,0 +1,57 @@
+/* .project shadow-large{
+    display:flex!important;
+}
+
+.img {
+    /* width: 400px;
+    height: auto;
+    /* max-width: 400px;
+    max-height: 400px;  
+} */
+
+/* .project-info {
+    width: 2000px!important;
+} */
+/* .row{
+    display:flex;
+    flex-direction: column;
+    background-color:blue;
+} */
+.row{
+    /* background-color:blue; */
+    width:1400px;
+    overflow: auto;
+}
+.project {
+    height:400px;
+}
+.project-info,  project-image{
+    display: flex;
+    white-space: pre-line;
+    margin-left: 500px;
+}
+.project-info {
+    flex-direction: column;
+    /* background-color:yellow; */
+}
+/* .img{
+    text-align:right;
+} */
+.project-image{
+    /* object-fit:none; */
+    /* text-align: center;
+    object-fit:fill;
+    background-size: contain; */
+    /* background-color:black; */
+}
+.project-info-introduction {
+    text-align: left;
+}
+/* .h3, .project-info-github, .project-info-demo {
+    flex: 1;
+    display:flex;
+}
+.project-info-introduction {
+    flex: 3;
+    display:flex;
+} */
