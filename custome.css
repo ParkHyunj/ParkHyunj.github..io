@@ -12,6 +12,35 @@
     color: #000000;
 }
 
-.col-sd-5>p {
-    font-size:20px;
+#projects .z {
+    text-align:left;
+}
+
+#projects .y{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#projects .w>a{
+    font-size: 25px;
+}
+
+#projects .w {
+    word-spacing: 2em;
+}
+
+#projects .col-md-4 {
+    /* background-color:black; */
+    /* height: 100%; */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* width:30%;
+    height:auto;
+    align-items: center;
+    display:flex;
+    justify-content: center; */
+    height: 300px;
+    width:400px;
+    object-fit: cover;
 }
