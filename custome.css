@@ -1,19 +1,21 @@
 #about .x {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
     color: #000000;
+    word-break: keep-all;
 }
 
 #skills>ul {
     font-size: 22px;
     text-align:left;
-    max-width:1200px;
+    max-width:1350px;
     font-weight:500;
     color: #000000;
 }
 
 #projects .z {
     text-align:left;
+    word-break: keep-all;
 }
 
 #projects .y{
@@ -43,4 +45,7 @@
     height: 300px;
     width:400px;
     object-fit: cover;
+}
+#skills ul{
+    word-break: keep-all;
 }
