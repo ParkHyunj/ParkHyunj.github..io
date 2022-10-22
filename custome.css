@@ -1,5 +1,6 @@
 header a{
-    font-size:40px;
+    font-size:36px;
+    text-decoration:none;
 }
 
 #lead-content > h1{
@@ -40,33 +41,12 @@ header a{
 }
 
 #projects .w {
-    word-spacing: 2em;
+    word-spacing: 5em;
 }
 
-#projects .col-md-4 {
-    background-color:black;
-    display: block;
-    margin: 0px auto;
-    max-width: 600px;
-    max-height: 600px;
-    width: 400px;
-    /* height: 100%; */
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
-    /* width:30%;
-    height:auto;
-    align-items: center;
-    display:flex;
-    justify-content: center; */
-    /* height: 500px;
-    width:400px; */
-    /* object-fit: cover; */
-}
 #skills ul{
     word-break: keep-all;
 }
-
 
 .project-content-wrap-custom {
     display: flex;
@@ -82,7 +62,6 @@ header a{
 
 .project-img-wrap-custom {
     flex: 4;
-    background-color: blanchedalmond;
 }
 
 .project-img-custom {
@@ -111,4 +90,20 @@ header a{
 
 .project-detail-custom {
     font-size: 23px;
+}
+
+.copyright {
+    font-size: 20px;
+}
+
+.fa {
+    font-size: 25px;
+}
+.top span{
+    width:50px;
+    height:50px;
+}
+#lead-down span{
+    width:50px;
+    height:50px;
 }
