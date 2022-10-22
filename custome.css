@@ -66,3 +66,49 @@ header a{
 #skills ul{
     word-break: keep-all;
 }
+
+
+.project-content-wrap-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.project-img-wrap-custom {
+    flex: 4;
+    background-color: blanchedalmond;
+}
+
+.project-img-custom {
+    display:block; 
+    margin:auto;
+    
+    max-width: 450px;
+    object-fit: cover;
+}
+
+.project-text-wrap-custom {
+    flex: 8;
+}
+
+.project-title-custom {
+    font-size: 32px;
+    font-weight: 600;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-detail-wrap-custom {
+    margin: 40px;
+}
+
+.project-detail-custom {
+    font-size: 23px;
+}
