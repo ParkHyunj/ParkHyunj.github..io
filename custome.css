@@ -77,6 +77,9 @@ header a{
 .skill-title-custom{
     font-size: 32px;
     font-weight: 600;
+
+    padding-top:10px;
+    padding-left:10px;
 }
 .project-detail-wrap-custom {
     margin: 40px;
@@ -87,18 +90,28 @@ header a{
     list-style-type:circle;
 }
 
+.skill-detail-custom > li{
+    margin:0;
+}
 .copyright {
-    font-size: 20px;
+    font-size: 16px;
 }
 
-.fa {
-    font-size: 25px;
-}
 .top span{
-    width:50px;
-    height:50px;
+    width:35px;
+    height:35px;
 }
 #lead-down span{
-    width:50px;
-    height:50px;
+    width:35px;
+    height:35px;
+}
+.col-sm-5{
+    font-size:16px;
+}
+.top i{
+    font-size: 16px;
+    padding-top: 3px;
+}
+#lead-down {
+    font-size:16px;
 }
