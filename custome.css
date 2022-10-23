@@ -1,5 +1,5 @@
 header a{
-    font-size:36px;
+    font-size:32px;
     text-decoration:none;
 }
 
@@ -11,19 +11,11 @@ header a{
     font-size: 50px;
 }
 
-#about .x {
+#about .aboutinfo {
     font-size: 27px;
     font-weight: 500;
     color: #000000;
     word-break: keep-all;
-}
-
-#skills> ul {
-    font-size: 22px;
-    text-align:left;
-    max-width:1350px;
-    font-weight:500;
-    color: #000000;
 }
 
  li{
@@ -31,21 +23,20 @@ header a{
     word-break: keep-all;
 }
 
-#projects .y{
-    font-size: 30px;
-    font-weight: 700;
-}
-
-#projects .w>a{
+#projects .projectsite>a{
+    color:rgba(33,125,187,0.8);
     font-size: 25px;
+    text-decoration: none;
 }
 
-#projects .w {
-    word-spacing: 5em;
+#projects .projectsite {
+    word-spacing: 40px;
 }
 
 #skills ul{
+    text-align:left;
     word-break: keep-all;
+    max-width:1350px;
 }
 
 .project-content-wrap-custom {
@@ -83,13 +74,17 @@ header a{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.skill-title-custom{
+    font-size: 32px;
+    font-weight: 600;
+}
 .project-detail-wrap-custom {
     margin: 40px;
 }
 
-.project-detail-custom {
+.project-detail-custom, #skills li {
     font-size: 23px;
+    list-style-type:circle;
 }
 
 .copyright {
