@@ -90,8 +90,8 @@ header a{
     list-style-type:circle;
 }
 
-.skill-detail-custom > li{
-    margin:0;
+.skill-detail-custom > p{
+    margin-left:15px;
 }
 .copyright {
     font-size: 16px;

@@ -86,7 +86,7 @@
                     <div class="project-content-wrap-custom">
                         <!-- 이미지 -->
                         <div class="project-img-wrap-custom">
-                            <img class="project-img-custom" src="images/capture123.PNG" alt="profile"/>
+                            <img class="project-img-custom" src="images/firstreactcapture.PNG" alt="profile"/>
                         </div>
                         <!-- End .project-image -->
                         <!-- 텍스트 -->
@@ -97,11 +97,11 @@
                                     React.js, React-Router-Dom, React-Bootstrap, CSS 등을 사용해보기 위해 '게시판 만들기' 프로젝트를 진행하였습니다.
                                 </li>
                                 <li class="project-detail-custom">
-                                    게시글 상세보기를 만들 때, useEffect, useState를 사용하여 data.json 파일의 data 중에서 no를 배열로 가지는 함수를 만들었습니다.
+                                    데이터베이스를 사용하는 대신 data.json이라는 데이터 파일을 임의로 만들고, 이를 파싱하여 게시판 목록 출력을 구현했습니다.
                                 </li>
                                 <li class="project-detail-custom">
-                                    데이터베이스를 사용하는 대신 data.json이라는 데이터 파일을 임의로 생성한 후, 이를 파싱하여 게시판 목록 출력을 구현했습니다.
-                                </li> 
+                                    게시글 상세보기를 만들 때, useEffect, useState를 사용하여 data.json 파일의 data 중에서 no를 기준으로 파싱하여 화면에 출력하였습니다.
+                                </li>
                                 <li class="project-detail-custom">
                                     상단바를 만드는 과정에서 React-Router-Dom v6의 Link, Route를 사용하고, 이미지(로고)를 삽입했습니다.
                                 <li class="project-detail-custom">
@@ -271,22 +271,25 @@
                 <h3 class="skill-title-custom">React.js</h3>
                 <ul class="skill-detail-custom">
                     <p>
-                        ⚬ state와 state의 변화에 따라 실행(렌더링)되는 useState, useEffect에 대해 알고 있습니다.
+                        ⚬ state의 상태를 관리할 수 있는 useState, 컴포넌트가 렌더링 될 때마다 특정 작업을 실행하는 useEffect에 대해 익숙합니다.
                     </p>
                     <p>
-                        ⚬ Router 종류를 알고, 상황에 맞게끔 쓸 수 있으며, 로컬의 데이터들을 data.json을 통해 파싱을 할 수 있습니다. 
+                        ⚬ Router의 종류와 사용 방법과 path, component 방식에 대하여 알고 있습니다.
                     </p>
                     <p>
-                        ⚬ state의 상태관리를 효율적으로 할 수 있는 Redux에 대해서 Action 함수, Dispatch의 역할, Store, Reducer에 대해서 알고 있습니다.
+                        ⚬ state의 상태관리를 효율적으로 할 수 있는 Redux에 대해서 Action 함수, Dispatch의 역할, Store, Reducer와 전역 변수에 대하여 알고 있습니다.
                     </p>
                     <p>
-                        ⚬ class 없이 React 기능을 사용할 수 있는 hook에 대하여 프로젝트를 통해 알고 있습니다.
+                        ⚬ 클래스형, 함수형 컴포넌트의 차이를 알고, 함수형 컴포넌트로 작업하는 것을 선호합니다.
                     </p>
                     <p>
                         ⚬ Component에 대하여 알고, Component를 기본적으로 이용하여 React 프로젝트를 진행하였습니다.
                     </p>
                     <p>
-                        ⚬ 데이터를 사용함에 있어서, axiox라는 라이브러리를 설치하여 REST API 요청(API 연동)을 할 수 있습니다.
+                        ⚬ 다양한 hook, 라이브러리를 활용하여 반응형 웹을 만들 수 있습니다.
+                    </p>
+                    <p>
+                        ⚬ 데이터를 사용함에 있어서, axios라는 라이브러리를 설치하여 REST API 요청(API 연동)을 할 수 있습니다.
                     </p>
                 </ul>
             </li>
@@ -296,22 +299,28 @@
                     <p>
                         ⚬ npm으로 package.json에서 패키지들의 버전 관리 등을 하며, npm 모듈, npm 패키지 등에 대하여 능숙하며, 웹 서버를 만들 수 있습니다.
                     </p>
+                    <p>
+                        ⚬ NVM으로 Node.js의 버전을 관리하며, 버전 변경방법에 대해 알고 있습니다.
+                    </p>
                 </ul> 
             </li> 
             <li>
                 <h3 class="skill-title-custom">JavaScript</h3>
                 <ul class="skill-detail-custom">
                     <p>
-                        ⚬ 하나의 함수를 처리하는데 있어서 오래 걸려 다음 실행해야할 함수에 지장을 주지 않기 위한 비동기처리 방식을 이해하고 있으며, ES6(ECMAScript6)에 대하여 이해하고 있으며, ES6와 ES5의 차이(클래스의 사용 유무, 변수 선언의 차이 등)를 알고 있습니다.
+                        ⚬ 비동기처리 방식을 이해하고 있으며, 콜백 함수, Promise 객체, async/await에 대하여 알고 있습니다.
                     </p>
                     <p>
-                        ⚬ 플러그인, 라이브러리를 사용하지 않은  순수 JavaScript인 Vanillajs에 대하여 알고 있으며, JSX 문법에 대해서도 알고 있습니다.
+                        ⚬ ES6(ECMAScript6)에 대하여 이해하고 있으며, ES6와 ES5의 차이(클래스의 사용 유무, 변수 선언의 차이 등)를 알고 있습니다. 
+                    </p>              
+                    <p>
+                        ⚬ 플러그인, 라이브러리를 사용하지 않은 Vanillajs에 대하여 알고 있으며, JSX 문법에 대해서도 알고 있습니다.
                     </p>
                     <p>
-                        ⚬ JavaScript 라이브러리를 통해 DOM을 조작하고, 레이아웃을 단순화하며, JavaScript 프레임워크를 이용하여 반응형 웹 개발을 할 수 있습니다.
+                        ⚬ JavaScript를 사용하여 반응형 레이아웃을 구현할 수 있습니다.
                     </p>
                     <p>
-                        ⚬ TypeScript와 JavaScript의 차이점을 알고, JavaScript를 선호합니다.
+                        ⚬ TypeScript와 JavaScript의 차이점을 알고, JavaScript로 작업하는 것을 선호합니다.
                     </p>
                 </ul>   
             </li> 
@@ -319,10 +328,13 @@
                 <h3 class="skill-title-custom">jQuery</h3>
                 <ul class="skill-detail-custom">
                     <p>
-                        ⚬ class랑 id를 통해 element를 선택하고, 제어하는 것에 익숙하며, 대표적으로 $(this), .find(), .siblings()와 같이 다양한 method에 대하여 사용할 수 있습니다.
+                        ⚬ JavaScript의 라이브러리로써 호한성 문제를 해결하고, 애니메이션 효과 기능을 보다 편리하게 구현합니다.
                     </p>
                     <p>
-                        ⚬ jQuery는 JavaScript의 라이브러리로써, method 다음에는 .으로 꼬리에 꼬리를 무는 형식으로, chain이라고도 불립니다.
+                        ⚬ method 다음에는 .으로 꼬리에 꼬리를 무는 형식인 chain에 대해서 알고 있습니다.
+                    </p>          
+                    <p>
+                        ⚬ class랑 id를 통해 element를 선택하고, 제어하는 것에 익숙하며, 대표적으로 $(this), .find(), .siblings()와 같이 다양한 method에 대하여 사용할 수 있습니다.
                     </p>
                 </ul>
             </li>
@@ -333,17 +345,16 @@
                         ⚬ 대학교에서 간단한 웹페이지 구현을 해보았습니다.
                     </p>
                     <p>
-                        ⚬ python ml 라이브러리를 사용하여 데이터를 다운받아, 잘못된 데이터 수정 및 제거(데이터 정리)하고, 데이터의 다양한 특징 추출 및 선택하며, 꺾은선 차트, 막대 그래프, 히스토그램 차트 등의 차트 및 그래프를 사용하여 데이터 시각화를 할 수 있습니다.
+                        ⚬ urllib 라이브러리를 사용하여 웹사이트의 데이터를 다운받을 수 있습니다.
                     </p>
-                </ul>
-            </li>                                                                                 
-            <li>
-                <h3 class="skill-title-custom">Unix, Linux</h3>
-                <ul class="skill-detail-custom">
                     <p>
-                        ⚬ cli 환경에서 작업하는데 거부감이 없으며, 오류 처리 함수 및 메시지를 출력하고, 메모리 할당을 할 수 있고, 학교에서 GUI(Graphical User Interface)를 사용해 보았습니다.
+                        ⚬ pandas 라이브러리를 사용하여 데이터를 쉽게 다룰 수 있는 테이블 형식으로 만들어, 데이터 분석을 용이하게 할 수 있습니다.
+                    </p>
+                    <p>
+                        ⚬ matpotlib 라이브러리를 사용하여 꺾은선 차트, 막대 그래프, 히스토그램 차트 등의 차트 및 그래프를 사용하여 데이터 시각화를 할 수 있습니다.
                     </p>
                 </ul>
+            </li>
             <li>
                 <h3 class="skill-title-custom">Git</h3>
                 <ul class="skill-detail-custom">
@@ -351,30 +362,50 @@
                         ⚬ Git을 통해 버전 관리를 할 수 있고, 여러 개의 Branch를 통해 개발한 뒤, 프로그램에 합치는 방식(Merge)를 할 수 있습니다.
                     </p>
                     <p>
-                        ⚬ GitHub Repository에 push, pull, commit을 할 수 있습니다. README 파일도 프로젝트에 맞춰서 내용을 설명하거나 수정할 수 있습니다.
+                        ⚬ commit 메시지 작성을 체계적으로 정리하려고 노력하고 있습니다.
+                    </p>
+                    <p>
+                        ⚬ README 파일을 프로젝트에 맞춰서 내용을 작성하며, 작성하는 방법을 알고 있습니다.
                     </p>
                     <p>
                         ⚬ Git의 협업방식인 GitFlow, Trunk-based에 대하여 알고 있으며, 코드를 직접 푸시하는 Trunk-based 방식을 선호합니다. 
                     </p>
+                </ul>
+            </li>                                                                                 
+            <li>
+                <h3 class="skill-title-custom">Unix, Linux</h3>
+                <ul class="skill-detail-custom">
                     <p>
-                        ⚬ 디렉토리 생성 후, Git Bash를 통해 React.js 코드 작성에 필요한 설정을 할 수 있습니다. 
+                        ⚬ cli 환경에서 작업하는데 거부감이 없습니다.                                                              
+                    </p>
+                    <p>
+                        ⚬ Linux 쉘을 사용하여 데이터를 백업할 수 있습니다.                                                        
+                    </p>
+                    <p>
+                        ⚬ moreutils 패키지를 설치하여, 오류 처리 함수 및 메시지 출력을 할 수 있습니다.                                             
                     </p>
                 </ul>
-            </li>                 
+            </li>
             <li>
                 <h3 class="skill-title-custom">HTML5, CSS3</h3>
                 <ul class="skill-detail-custom">
                     <p>
-                        ⚬ HTML5에서 SEO(검색엔진 최적화)에 유리한 Semantic Markup을 잘 준수하여 CSS 스타일을 명시하는 태그와 구분이 가능하고, 레이아웃을 만들기 위해 FlexBox를 거부감 없이 사용할 수 있습니다.
-                    </p>
-                    <p>
-                        ⚬ JavaScript 코드와 통합하여 콘텐츠를 동적으로 업데이트할 수 있습니다.
+                        ⚬ HTML5에서 SEO(검색엔진 최적화)에 유리한 Semantic Markup을 이해하고 있습니다.
                     </p>
                     <p>
                         ⚬ HTML5, CSS3를 작성할 때, 프레임워크의 한 종류인 Bootstrap v5을 사용하여 Grid 시스템, 레이아웃 등 반응형 웹을 다양하게 활용할 수 있습니다.
                     </p>
                     <p>
+                        ⚬ CSS 작성시 우선 순위에 대하여 알고 있습니다.
+                    </p>
+                    <p>
+                        ⚬ 반응형 레이아웃을 만들기 위해 Flex를 거부감 없이 사용할 수 있습니다.
+                    </p>
+                    <p>
                         ⚬ CSS3를 작성할 때, 반응형 웹디자인의 기본이 되는 Media Query에 대해서도 사용방법을 알고 있습니다.
+                    </p>
+                    <p>
+                        ⚬ JavaScript 코드와 연계하여 콘텐츠를 동적으로 업데이트할 수 있습니다.
                     </p>
                 </ul>
             </li>                              
@@ -385,18 +416,6 @@
                         ⚬ 안드로이드 환경에서 NDK 설정 및 JNI로 레이아웃을 설정하여, 작성한 네이티브 소스를 빌드하여 앱의 일부를 구현하는 등, 수동으로 native build를 하는데, 거부감이 없습니다.
                     </p>
                 </ul>
-                <!-- <h3 class="skill-title-custom">C</h3>
-                <ul class="skill-detail-custom">
-                    <p>
-                        ⚬ Windows, 리눅스, iOS, Android 등의 운영체제의 커널이 C 언어로 만들어졌으며, 다른 언어들은 C 언어의 라이브러리를 가져다 쓰는 구조입니다.
-                    </p>
-                </ul>
-                <h3 class="skill-title-custom">C++</h3>
-                <ul class="skill-detail-custom">
-                    <p>
-                        ⚬ C 언어에 객체지향 프로그래밍을 지원하기 위한 부분이 포함된 것으로, C++의 iostrem 표준 라이브러리를 통해 문자 형태의 입출력을 할 수 있습니다.
-                    </p>
-                </ul> -->
             </li>
         </ul>
     </div>
